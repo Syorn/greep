@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=SimpleGreep
+comment0.text=\n\ A\ Greep\ is\ an\ alien\ creature\ that\ likes\ to\ collect\ tomatoes.\n\ \n\ This\ is\ a\ simple\ greep\ that\ makes\ use\ of\ most\ of\ the\ functionality\ in\ Greep,\n\ and\ it\ is\ the\ default\ opponent\ that\ you\ will\ have\ when\ competing\ in\ the\ \n\ Greeps\ competition.\ \n\ \n\ This\ greep\ uses\ the\ memory\ to\ remember\ where\ it\ has\ seen\ tomatoes,\ and\ will\ \n\ go\ back\ to\ get\ more.\ Also,\ if\ they\ hit\ water,\ they\ turn\ immediately\ and\ try\ \n\ a\ different\ direction.\n\ \n\ If\ the\ greep\ is\ waiting\ alone\ at\ a\ pile\ of\ tomatoes\ it\ will\ block\ so\ opponents\ \n\ can't\ get\ to\ the\ pile.\n\ \n\ Finally,\ if\ the\ greep\ can\ see\ multiple\ opponent\ greeps,\ it\ will\ let\n\ off\ a\ stink\ bomb.\n\ \n\ This\ greep\ does\ not\ communicate\ with\ other\ greeps\ or\ the\ ship.\n\ \n\ @author\ Davin\ McCall\n\ @author\ Poul\ Henriksen\n\ @version\ 1.0\n
+comment1.params=ship
+comment1.target=SimpleGreep(Ship)
+comment1.text=\n\ Default\ constructor.\ Do\ not\ remove.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Do\ what\ a\ greep's\ gotta\ do.\n
+comment3.params=
+comment3.target=void\ checkFood()
+comment3.text=\n\ Is\ there\ any\ food\ here\ where\ we\ are?\ If\ so,\ try\ to\ load\ some\!\n
+comment4.params=
+comment4.target=void\ randomWalk()
+comment4.text=\ \n\ Move\ forward,\ with\ a\ slight\ chance\ of\ turning\ randomly\n
+comment5.params=
+comment5.target=void\ bringTomatoHome()
+comment5.text=\n\ Bring\ a\ tomato\ to\ our\ ship.\ Drop\ it\ if\ we\ are\ at\ the\ ship.\n
+comment6.params=tomatoes
+comment6.target=boolean\ blockAtPile(TomatoPile)
+comment6.text=\n\ If\ we\ are\ at\ a\ tomato\ pile\ and\ none\ of\ our\ friends\ are\ blocking,\ we\ will\ block.\n\ \n\ @return\ True\ if\ we\ are\ blocking,\ false\ if\ not.\n
+comment7.params=x\ y
+comment7.target=int\ distanceTo(int,\ int)
+comment8.params=
+comment8.target=java.lang.String\ getName()
+comment8.text=\n\ This\ method\ specifies\ the\ name\ of\ the\ author\ (for\ display\ on\ the\ result\ board).\n
+numComments=9
